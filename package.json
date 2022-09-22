@@ -43,6 +43,7 @@
     "serve": "14.0.1"
   },
   "devDependencies": {
+    "cypress":"^10.8.0",
     "@bahmutov/print-env": "1.2.0",
     "colon-names": "1.0.0",
     "execa": "2.0.5",
