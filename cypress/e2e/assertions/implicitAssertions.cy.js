@@ -49,5 +49,8 @@ describe('empty spec', () => {
     // перевірка на те що елемент візібл
     cy.get('table.table-bordered.assertion-table tr td').eq(5)
     .should('be.visible');
+    //перевірка що список має певну кількість елементів
+    cy.get('a[data-toggle="dropdown"]').click();
+    cy.get('.dropdown-menu li').should('have.length', 17)
   })
 })
